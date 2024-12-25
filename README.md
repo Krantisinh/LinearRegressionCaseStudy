@@ -12,10 +12,10 @@ BoomBikes, a US bike-sharing provider, aims to predict the demand for shared bik
 
 
 ## Conclusions
-- We built a linear regression model lr2 to predict the bike sharing count.
-- R-squared of the model: 0.824
-- R-squared of the test data: 0.806
-- `cnt = 2045.3276 * yr - 526.4530 * holiday + 412.6773 * weekday + 149.6509 * workingday + 3146.4840 * temp - 699.2194 * hum - 1512.3324 * windspeed - 1367.3025 * Spring + 574.3577 * Clear - 1642.0133 * LightRain + 2423.9236`
+- We built a linear regression model lr1 to predict the bike sharing count.
+- R-squared of the model: 0.834
+- R-squared of the test data: 0.809
+- `cnt = 2015.9015 * yr - 557.7596 * holiday + 422.7937 * weekday + 162.5193 * workingday + 4288.2546 * temp - 1073.4476 * hum - 1564.5809 * windspeed - 644.9492 * Spring + 377.0228 * Summer + 786.0812 * Winter - 2167.2031 * LightRain - 509.4176 * Mist + 2159.4744`
 
 ## Technologies Used
 - Python
